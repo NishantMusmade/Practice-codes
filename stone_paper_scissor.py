@@ -31,7 +31,7 @@ while True:
 
     result = stone_paper_scissor[user_input][computer_input]
     if result == 'D':
-        print('\ngame has been drawn')
+        print('\nGame has been drawn')
     elif result == 'W':
         print('\nYou won the game')
     else:
