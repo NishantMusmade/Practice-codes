@@ -19,7 +19,6 @@ stone_paper_scissor = [['D','L','W'],
 print('Press q s(Quit) to exit...!')
 
 inputs = {0:'Stone',1:'Paper',2:'Scissor'}
-abbrevations = {'D':"Draw",'W':"Win",'L':"Lose"}
 while True:
     computer_input = random.randint(0,2)
     print('\n0. Stone, 1. Paper, 2. Scissor, 3. Exit')
